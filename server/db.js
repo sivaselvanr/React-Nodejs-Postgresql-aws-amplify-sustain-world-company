@@ -1,9 +1,9 @@
 const Pool = require('pg').Pool;
 const pool = new Pool({
     user:"Rkss",
-    password:"SivaRaj_07",
-    host:"first-react-procject.coafalvmzodt.ap-southeast-1.rds.amazonaws.com",
+    password:"SivaRaj_009",
+    host:"first-react-task.coafalvmzodt.ap-southeast-1.rds.amazonaws.com",
     port:5432,
-    database:"pern"
+    database:"first_react_task"
 });
 module.exports = pool;
